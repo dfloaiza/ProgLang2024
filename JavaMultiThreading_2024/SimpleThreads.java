@@ -1,5 +1,9 @@
 
 public class SimpleThreads {
+
+	SynchronizedCounter sharedResource1;
+	IntrinsicLockObject sharedResource2;
+	AtomicAccessSynch sharedResource2;
 		
 	static void threadMessage(String msg ){
 		String threadName = Thread.currentThread().getName();
